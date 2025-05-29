@@ -12,9 +12,24 @@
     combos {
         compatible = "zmk,combos";
 
-        Soft_Off {
-            bindings = <&soft_off>;
+        LockScreen {
+            bindings = <&kt K_SCREENSAVER>;
             key-positions = <61 62>;
+        };
+
+        VolumeUp {
+            bindings = <&kt K_VOLUME_UP>;
+            key-positions = <58 42>;
+        };
+
+        VolumeDown {
+            bindings = <&kt K_VOLUME_DOWN>;
+            key-positions = <56 58>;
+        };
+
+        Mute {
+            bindings = <&kt K_MUTE>;
+            key-positions = <58 65>;
         };
     };
 
