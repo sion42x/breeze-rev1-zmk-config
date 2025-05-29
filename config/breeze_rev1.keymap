@@ -19,17 +19,17 @@
 
         VolumeUp {
             bindings = <&kt K_VOLUME_UP>;
-            key-positions = <58 42>;
+            key-positions = <42 65>;
         };
 
         VolumeDown {
             bindings = <&kt K_VOLUME_DOWN>;
-            key-positions = <56 58>;
+            key-positions = <56 65>;
         };
 
         Mute {
             bindings = <&kt K_MUTE>;
-            key-positions = <58 65>;
+            key-positions = <65 55>;
         };
     };
 
